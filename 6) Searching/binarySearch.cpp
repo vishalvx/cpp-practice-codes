@@ -1,6 +1,6 @@
 #include <iostream>
-
 using namespace std;
+
 int binarySearch(int arr[], int size, int key)
 {
     int start = 0, end = size - 1, mid;
@@ -26,5 +26,5 @@ int binarySearch(int arr[], int size, int key)
 int main()
 {
     int arr[6] = {6, 8, 12, 4, 2, 7};
-    cout << binarySearch(arr, 6, 0) + 1 << " at index" << endl;
+    cout << binarySearch(arr, 6, 4) + 1 << " at index" << endl;
 }
